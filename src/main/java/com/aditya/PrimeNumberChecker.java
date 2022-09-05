@@ -14,6 +14,19 @@ public class PrimeNumberChecker {
 
         // Create an object of PrimeNumberChecker class
         PrimeNumberChecker primeNumberChecker = new PrimeNumberChecker();
+
+        // prompt the user to enter a number
+        System.out.println("Enter a number to check if it is prime or not: ");
+
+        // store the number entered by the user in a variable
+        int num = sc.nextInt();
+
+        // call the checkPrime method of PrimeNumberChecker class
+        if (primeNumberChecker.isPrime(num)) {
+            System.out.println(num + " is a prime number");
+        } else {
+            System.out.println(num + " is not a prime number");
+        }
     }
     /**
      * This method checks if the given number is prime.
