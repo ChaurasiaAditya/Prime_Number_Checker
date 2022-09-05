@@ -5,9 +5,15 @@
  */
 package com.aditya;
 
+import java.util.Scanner;
+
 public class PrimeNumberChecker {
     public static void main(String[] args) {
+         // Create a Scanner object
+        Scanner sc = new Scanner(System.in);
 
+        // Create an object of PrimeNumberChecker class
+        PrimeNumberChecker primeNumberChecker = new PrimeNumberChecker();
     }
     /**
      * This method checks if the given number is prime.
