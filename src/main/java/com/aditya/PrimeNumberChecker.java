@@ -6,6 +6,9 @@
 package com.aditya;
 
 public class PrimeNumberChecker {
+    public static void main(String[] args) {
+
+    }
     /**
      * This method checks if the given number is prime.
      *
